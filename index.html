@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="Icon" href="./image/logo.png">
+
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <a href="#home" class="logo">
+            <h3>Aditi Chodankar</h3>
+        </a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/chaturadevop21"><i class='bx bxl-github'></i></a>
+            <a href="www.linkedin.com/in/aditi-chodankar-794791212"><i class='bx bxl-linkedin'></i></a>
+      
+        </div>
+        <div class="home-img">
+        
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1 class="purple">Aditi Chodankar</h1>
+            <span id="element"></span> <br>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+           
+            <div class="about-text">
+                <p>I am Aditi Chodankar, a tech enthusiast with a strong academic background in Electronics and
+                    Computer Engineering. Pursuing my Bachelor's degree from Padre Conceicao College of Engineering in
+                    Verna, Goa. My education has provided me with a solid foundation, which I've
+                    coupled with a keen interest in Cyber Security graphic design web  development and UI/UX. As a creative individual, I enjoy
+                    blending technology and aesthetics to craft compelling and user-centric designs. I am
+                    excited to contribute my skills and passion to a forward-thinking team, striving for
+                    innovation and excellence.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Aditi Chodankar</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+91 7972802021</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+
+                        <i class='bx bxs-envelope'></i>
+                        <span>aditichodankar21@gmail.com</span>
+                    </div>
+                   
+        </div>
+    </section>
+
+    
+
+    
+
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Connect With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="" method="POST">
+                <input type="text" name="name" placeholder="Your Name" id="name" required>
+                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                <input type="text" name="phone" id="phone" placeholder="Your Phone no." required>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Write Message Here..."></textarea>
+                <input class="contact-button" type="submit" value="Send Email" />
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <h2>SOCIAL MEDIA</h2>
+        <div class="footer-social">
+            <a href="https://twitter.com/VipulTalek7352"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/chatura_21_/?next=%2F"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.youtube.com/channel/UC7U4-BMl35LUtWMFPyyowAg"><i class='bx bxl-youtube'></i></a>
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Created By <a href="">Aditi Chodankar</a> | All Rights Reserved.</p>
+    </div>
+
+
+    <!-- Link To JS -->
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Front-End Developer', 'Ui/Ux Designer', 'Cyber Security Enthusiast'],
+        });
+    </script>
+</body>
+
+</html>
